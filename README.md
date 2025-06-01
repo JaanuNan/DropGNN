@@ -31,8 +31,8 @@ The original paper demonstrates that DropGNN achieves state-of-the-art performan
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/dropgnn-implementation.git
-cd dropgnn-implementation
+git clone https://github.com/JaanuNan/DropGNN.git
+cd dropgnn.ipynb
 ```
 
 2. Create and activate a virtual environment (recommended):
@@ -41,17 +41,13 @@ python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```
 
-3. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
 
 ## Usage
 
 ### Jupyter Notebook
-The main implementation is provided in `DropGNN_Implementation.ipynb`. Open it with Jupyter:
+The main implementation is provided in `DropGNN.ipynb`. Open it with Jupyter:
 ```bash
-jupyter notebook DropGNN_Implementation.ipynb
+jupyter notebook dropgnn.ipynb
 ```
 
 ### Python Script
@@ -72,18 +68,17 @@ Modify the hyperparameters in the notebook/script to experiment with different s
 
 ```
 dropgnn-implementation/
-├── DropGNN_Implementation.ipynb    # Main implementation notebook
+├── dropgnn.ipynb    # Main implementation notebook
 ├── dropgnn.py                     # Python implementation
-├── documentation/                  # Additional documentation
-│   ├── methodology.md
-│   └── results_analysis.md
-├── requirements.txt                # Dependencies
+├── documentation              # Implementation documentation
+├── Research paper                # Paper Pdf
 └── LICENSE
 ```
 
 ## Results
 
-Include here any results you've obtained from your implementation, or refer to the original paper's results if you haven't run experiments yet.
+![image](https://github.com/user-attachments/assets/6fa60768-363a-4f32-83d0-a8438a07bd64)
+
 
 ## Contributing
 
@@ -105,13 +100,3 @@ If you use this implementation in your research, please cite the original paper:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-### Notes:
-1. Replace `yourusername` with your actual GitHub username in the clone URL
-2. Add your actual `requirements.txt` file with the necessary dependencies
-3. Include any additional documentation you have in the documentation folder
-4. Add your implementation results if available
-5. Customize the repository structure if your files are organized differently
-
-Would you like me to modify any specific part of this README or add more details about your particular implementation?
